@@ -1,0 +1,34 @@
+(winCombos[i][j][0] === winCombos[i][j][1]) === winCombos[i][j][2]) ===
+          [["X"], ["X"], ["X"]] ||
+        ((winCombos[i][j][0] === winCombos[i][j][1]) === winCombos[i][j][2]) ===
+          [["O"], ["O"], ["O"]]
+
+winCombos is something separate we made
+as a tool to help us store all the cells where someone could win
+and we chose to use a 2-element array like [0, 0]
+to store the information necessary to get to a cell
+cuz then u could have board[subarray[0]][subarray[1]]
+assuming subarray = winCombos[i][j]
+i know that looks confusing but
+just know that subarray[0] and subarray[1] will evaluate to 0 and 0
+
+for (let j = 0; j < winCombos[i].length; j++) {
+  }
+  const [x, y, z] = winCombos[i][j];
+  for (let j = 0; j < winCombos[i].length; j++) {
+        const [x, y] = winCombos[i][j];
+        // console.log(winCombos[i][j]);
+        if (board[x][y] == "X") {
+          // setCheckWinner(true);
+          return console.log("sup");
+          // return x;
+        } else {
+          console.log("DNE");
+        }
+      }
+
+What is the state of the board?
+
+And
+
+Whose turn is it!

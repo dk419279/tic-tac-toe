@@ -1,0 +1,66 @@
+.tic-tac-toe-table {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(79, 165, 199, 0.596);
+}
+
+table td {
+  border: 10px solid black;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(151, 73, 223);
+}
+
+td {
+  text-align: center;
+  font-size: 50px;
+}
+
+td button {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(72, 209, 175);
+  color: rgb(168, 53, 235);
+  font-weight: 900;
+}
+
+.score-player-1 {
+  display: flex;
+
+  border: 5px solid black;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  background-color: green;
+  font-weight: bold;
+  position: relative;
+  font-size: 18px;
+  align-self: center;
+}
+
+.score-player-2 {
+  border: 5px solid black;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  background-color: blue;
+  font-weight: bold;
+  position: static;
+  font-size: 18px;
+  align-self: center;
+}
+
+.match-history {
+  border: 2px solid black;
+
+  width: 200px;
+  text-align: center;
+  background-color: green;
+  font-weight: bold;
+  position: relative;
+  font-size: 18px;
+  align-self: center;
+}
